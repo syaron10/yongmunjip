@@ -199,7 +199,7 @@ footer p {
     flex-direction: column;
   }
 
-  .intro aside, article {
+  .intro-category aside, article {
     width: 100%;
   }
 
@@ -225,7 +225,7 @@ footer p {
     flex-direction: column;
   }
 
-  .menu aside, .grid {
+  .menu-category aside, .grid {
     width: 100%;
   }
 
