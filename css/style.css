@@ -133,9 +133,9 @@ article {
 /* Menu */
 .grid {
   display: grid;
-  gap: 26px;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 6%
+  gap: 26px;
+  margin-top: 6%;
   margin-bottom: 50px;
 }
 
