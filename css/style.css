@@ -164,7 +164,7 @@ footer p {
   }
 
   .category-content h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   /* Intro */
@@ -178,7 +178,7 @@ footer p {
 
   #intro .page-title {
     margin-top: 30px;
-    font-size: 1.5rem;
+    font-size: crem;
   }
 
   aside {
