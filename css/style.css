@@ -162,7 +162,7 @@ footer p {
     font-size: 2rem;
   }
 
-  /*home*/
+  /*index*/
   .home-content {
     margin-top: 20%;
   }
@@ -171,7 +171,7 @@ footer p {
     font-size: 2.2rem;
   }
 
-  /*news*/
+  /*intro*/
   .intro-content {
     flex-direction: column;
   }
@@ -189,11 +189,11 @@ footer p {
   }
 
   .main-content h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .main-content p {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 
 }
