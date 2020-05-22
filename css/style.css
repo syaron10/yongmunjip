@@ -171,6 +171,7 @@ footer p {
   .intro-content {
     flex-direction: column;
   }
+
   aside, article {
     width: 100%;
   }
