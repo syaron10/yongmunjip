@@ -130,6 +130,15 @@ article {
   display: block;
 }
 
+/* Menu */
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 6%
+  margin-bottom: 50px;
+}
+
 /* Footer */
 footer {
   background-color: #ddd;
@@ -164,7 +173,7 @@ footer p {
   }
 
   .index-content h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   /* Intro */
@@ -191,6 +200,13 @@ footer p {
 
   .main-content p {
     font-size: 0.7rem;
+  }
+
+  /* Menu */
+  .grid {
+    display: block;
+    margin-top: 6%;
+    margin-bottom: 50px;
   }
 
 }
