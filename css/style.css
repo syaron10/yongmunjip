@@ -97,17 +97,17 @@ article {
   width: 70%
 }
 
-.intro-content {
+.category-content {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
 }
 
-.intro-content article h3 {
+.category-content article h3 {
   margin-bottom: 20px;
 }
 
-.intro-content article p {
+.category-content article p {
   line-height: 2.5;
 }
 
@@ -159,16 +159,16 @@ footer p {
   }
 
   /* Index */
-  .index-content {
+  .category-content {
     margin-top: 20%;
   }
 
-  .index-content h2 {
+  .category-content h3 {
     font-size: 2rem;
   }
 
   /* Intro */
-  .intro-content {
+  .category-content {
     flex-direction: column;
   }
 
@@ -185,7 +185,7 @@ footer p {
     margin-bottom: 60px;
   }
 
-  .main-content h2 {
+  .main-content h3 {
     font-size: 1rem;
   }
 
