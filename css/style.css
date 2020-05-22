@@ -175,4 +175,11 @@ footer p {
     width: 100%;
   }
 
+  #intro .page-title {
+    margin-top: 30px;
+  }
+
+  aside {
+    margin-top: 60px;
+  }
 }
