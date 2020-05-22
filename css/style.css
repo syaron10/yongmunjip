@@ -89,11 +89,11 @@ h1 a {
 }
 
 /* Intro Content */
-aside {
+.category-content aside {
   width: 25%
 }
 
-article {
+.category-content article {
   width: 70%
 }
 
@@ -137,6 +137,14 @@ article {
   gap: 26px;
   margin-top: 0;
   margin-bottom: 50px;
+}
+
+.category-content aside {
+  width: 25%
+}
+
+.category-content div {
+  width: 70%
 }
 
 /* Footer */
