@@ -101,7 +101,6 @@ article {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
-  height:56vh;
 }
 
 .intro-content article h3 {
@@ -141,4 +140,26 @@ footer {
 footer p {
   color: #333;
   font-size: 0.8rem;
+}
+
+/* Mobile */
+@media(max-width: 600px) {
+  .home-content h2 {
+    font-size: 2rem;
+  }
+
+  /*header*/
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .main-nav li {
+    margin: 0 20px;
+  }
+
+  /*home*/
+  .home-content {
+    margin-top: 20%;
+  }
+
 }
