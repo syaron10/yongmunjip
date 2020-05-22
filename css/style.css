@@ -135,7 +135,7 @@ article {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 26px;
-  margin-top: 6%;
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
@@ -207,6 +207,10 @@ footer p {
     display: block;
     margin-top: 6%;
     margin-bottom: 50px;
+  }
+
+  .menu-item p {
+    margin-bottom: 6%
   }
 
 }
