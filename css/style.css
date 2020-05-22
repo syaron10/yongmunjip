@@ -199,17 +199,13 @@ footer p {
     flex-direction: column;
   }
 
-  .intro-category aside, article {
+  .intro-category aside {
     width: 100%;
-  }
-
-  #intro .page-title {
-    margin-top: 30px;
-    font-size: 1.5rem;
-  }
-
-  .intro-content aside {
     margin-bottom: 60px;
+  }
+
+  .intro-category article {
+    width: 100%;
   }
 
   .main-content h3 {
@@ -220,19 +216,25 @@ footer p {
     font-size: 0.7rem;
   }
 
+  #intro .page-title {
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+
   /* Menu */
   .menu-category {
     flex-direction: column;
   }
 
-  .menu-category aside, .grid {
+  .menu-category aside {
     width: 100%;
-  }
-
-  .menu-content aside {
     margin-bottom: 60px;
   }
 
+  .menu-category .grid {
+    width: 100%;
+  }
+  
   .grid {
     display: block;
     margin-top: 6%;
