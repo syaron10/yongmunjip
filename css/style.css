@@ -51,26 +51,26 @@ h1 a {
   justify-content: space-between;
 }
 
-/* Main Content */
-.home-content {
+/* Index Content */
+.index-content {
   text-align: center;
   margin-top: 15%;
 }
 
-.home-content h2 {
+.index-content h2 {
   font-size: 3rem;
   font-weight: normal;
   margin-bottom: 20px;
 }
 
-/* Main Image */
-.home-img {
+/* Index Image */
+.index-img {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
 }
 
-#home {
+#index {
   background-image: url(../image/main.png);
   min-height: 100vh;
 }
@@ -144,7 +144,7 @@ footer p {
 
 /* Mobile */
 @media(max-width: 600px) {
-  /*header*/
+  /* Header */
   .main-nav {
     font-size: 1rem;
     margin-top: 10px;
@@ -159,19 +159,19 @@ footer p {
   }
 
   .page-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
-  /*index*/
-  .home-content {
+  /* Index */
+  .index-content {
     margin-top: 20%;
   }
 
-  .home-content h2 {
-    font-size: 2.2rem;
+  .index-content h2 {
+    font-size: 1.5rem;
   }
 
-  /*intro*/
+  /* Intro */
   .intro-content {
     flex-direction: column;
   }
