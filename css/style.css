@@ -163,6 +163,10 @@ footer p {
     margin-top: 20%;
   }
 
+  .index-content h2 {
+    font-size: 2rem;
+  }
+
   /* Intro */
   .intro-content {
     flex-direction: column;
