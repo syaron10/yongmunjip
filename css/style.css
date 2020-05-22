@@ -159,11 +159,11 @@ footer p {
   }
 
   /* Index */
-  .category-content {
+  .index-content {
     margin-top: 20%;
   }
 
-  .category-content h3 {
+  .index-content h2 {
     font-size: 1.5rem;
   }
 
@@ -178,7 +178,7 @@ footer p {
 
   #intro .page-title {
     margin-top: 30px;
-    font-size: crem;
+    font-size: 1.5rem;
   }
 
   aside {
