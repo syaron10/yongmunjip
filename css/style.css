@@ -161,6 +161,28 @@ h1 a {
   margin-bottom: 50px;
 }
 
+/* Map */
+#location {
+  padding: 4% 0;
+}
+
+#location .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-info {
+  width: 30%;
+}
+
+.location-map {
+  width: 65%;
+}
+
+iframe {
+  width: 100%;
+}
+
 /* Footer */
 footer {
   background-color: #ddd;
@@ -251,6 +273,15 @@ footer p {
 
   .menu-item p {
     margin-bottom: 6%
+  }
+
+  /* Map */
+  #location .wrapper {
+    flex-direction: column;
+  }
+
+  .location-info, .location-map {
+    width: 100%;
   }
 
 }
