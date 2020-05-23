@@ -292,4 +292,8 @@ footer p {
     font-size: 0.7rem;
   }
 
+  .location-map {
+    margin-top: 6%
+  }
+
 }
