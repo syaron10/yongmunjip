@@ -139,6 +139,10 @@ h1 a {
   width: 70%
 }
 
+.main-content-img {
+  width: 70%;
+}
+
 .menu-category {
   display: flex;
   justify-content: space-between;
@@ -221,6 +225,10 @@ footer p {
     font-size: 1.5rem;
   }
 
+  .main-content-img {
+    width: 100%;
+  }
+
   /* Menu */
   .menu-category {
     flex-direction: column;
@@ -243,10 +251,6 @@ footer p {
 
   .menu-item p {
     margin-bottom: 6%
-  }
-
-  .main-content-img {
-    width: 100%;
   }
 
 }
